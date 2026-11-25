@@ -1,0 +1,21 @@
+pass VERSION : 0x53500003
+pass DIV 8->64 : 0x00000040
+pass CH=5 : 0x00000005
+pass CTRL dflt : 0x00000000
+---- rx_cnt reached 40 (t=92828000)
+pass FIFO_LVL RX=40 : 0x00000028
+pass CNT>=40 : 0x00000001
+pass STATUS rx_half : 0x00000003
+pass sample 0 : 0x00000000
+pass sample 1 : 0x00000001
+pass sample 2 : 0x00000002
+pass read empty FIFO : 0xffffffff
+pass STATUS empty : 0x00000000
+pass CNT clear : 0x00000000
+pass loopback RX=2 : 0x00000002
+pass loopback data 0 : 0x00000123
+pass loopback data 1 : 0x00000456
+
+==== TB_SPI_STREAM RESULT: PASS (0 errors) ====
+
+tb_spi_stream.v:204: $finish called at 98656250 (1ps)

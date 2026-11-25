@@ -1,0 +1,45 @@
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Wed Nov 25 09:18:44 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/xsim_snap/xsim_script.tcl
+# xsim {xsim_snap} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+pass VERSION : 0x4b420001
+pass reset CTRL : 0x00000000
+pass default DEBOUNCE : 0x00000008
+pass default KEYMAP0 : 0x03020100
+pass KEY when no key : 0x000000ff
+pass STATUS[0] no key : 0x00000000
+pass irq count still 0 : 0x00000000
+pass STATUS[0] new key : 0x00000001
+pass STATUS[1] pressed : 0x00000001
+pass STATUS[7:4] key : 0x00000005
+pass irq pulse count : 0x00000001
+pass KEY value : 0x00000005
+pass KEY empty after read : 0x000000ff
+pass STATUS[0] cleared by KEY read : 0x00000000
+pass STATUS[0] still 0 while holding : 0x00000000
+pass irq count still 1 : 0x00000001
+pass STATUS[1] released : 0x00000000
+pass second press KEY : 0x00000005
+pass irq count now 2 : 0x00000002
+pass KEY after remap : 0x000000ab
+pass scan code 0xE default map : 0x0000000e
+pass scan code 0xF (key15) : 0x0000000f
+pass fast debounce key : 0x00000003
+pass RAW col bits all 1 : 0x0000000f
+   RAW = 0x0000003f (row=3)
+pass rows idle high : 0x0000000f
+
+==== TB_KBD RESULT: PASS (0 errors) ====
+
+$finish called at time : 155002578125 ps : File "D:/LA132_SoC_HW_EXP/hw/peripheral/exp_kbd/tb_apb_kbd.v" Line 224
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Nov 25 09:18:48 2026...

@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LA132_SoC_HW_EXP/hw/peripheral/exp_spi_stream/tb_da_cs.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_da_cs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LA132_SoC_HW_EXP/hw/peripheral/exp_spi_stream/spi_stream_top.v" into library work
+INFO: [VRFC 10-311] analyzing module spi_stream_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LA132_SoC_HW_EXP/hw/peripheral/apb_spi/spi_top.v" into library work
+INFO: [VRFC 10-311] analyzing module spi_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LA132_SoC_HW_EXP/hw/peripheral/apb_spi/spi_fifo.v" into library work
+INFO: [VRFC 10-311] analyzing module spi_fifo

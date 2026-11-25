@@ -1,0 +1,63 @@
+pass reset EN : 0x00000000
+pass reset POL : 0x0000ffff
+pass reset EDGE : 0x00000000
+pass reset OUT : 0x00000000
+pass EN readback : 0x0000ffff
+pass POL readback : 0x00005555
+pass EDGE readback : 0x0000aaaa
+pass OUT after EN=FFFF, int_in=0 : 0x00000000
+pass irq low : 0x00000000
+pass SET bit : 0x00000001
+pass CLR bit : 0x00000000
+pass SET bit : 0x00000002
+pass CLR bit : 0x00000000
+pass SET bit : 0x00000004
+pass CLR bit : 0x00000000
+pass SET bit : 0x00000008
+pass CLR bit : 0x00000000
+pass SET bit : 0x00000010
+pass CLR bit : 0x00000000
+pass SET bit : 0x00000020
+pass CLR bit : 0x00000000
+pass SET bit : 0x00000040
+pass CLR bit : 0x00000000
+pass SET bit : 0x00000080
+pass CLR bit : 0x00000000
+pass SET bit : 0x00000100
+pass CLR bit : 0x00000000
+pass SET bit : 0x00000200
+pass CLR bit : 0x00000000
+pass SET bit : 0x00000400
+pass CLR bit : 0x00000000
+pass SET bit : 0x00000800
+pass CLR bit : 0x00000000
+pass SET bit : 0x00001000
+pass CLR bit : 0x00000000
+pass SET bit : 0x00002000
+pass CLR bit : 0x00000000
+pass SET bit : 0x00004000
+pass CLR bit : 0x00000000
+pass SET bit : 0x00008000
+pass CLR bit : 0x00000000
+pass level bit0 high : 0x00000001
+pass irq high : 0x00000001
+pass level bit1 high : 0x00000003
+pass level bit0 low : 0x00000002
+pass level all low : 0x00000000
+pass level pol=0, in=0 active : 0x00000003
+pass level pol=0, in=1 inactive : 0x00000002
+pass edge pre : 0x00000000
+pass edge latch after single rising : 0x00000004
+pass edge hold : 0x00000004
+pass edge clear : 0x00000000
+pass edge falling with pol=0 : 0x00000008
+pass irq from bit15 force : 0x00000001
+pass irq released : 0x00000000
+pass SET bypasses Eÿÿÿåÿÿÿ‰ÿÿÿŒÿÿº) : 0x00000010
+pass CLR after SET : 0x00000000
+pass level blocked by EN=0 : 0x00000000
+pass level visible when EN=1 : 0x00000010
+
+==== TB_INT16 RESULT: PASS (0 errors) ====
+
+tb_intc16.v:233: $finish called at 15437500 (1ps)

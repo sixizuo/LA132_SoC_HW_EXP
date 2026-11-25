@@ -1,0 +1,38 @@
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov 23 19:56:32 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/xsim_snap/xsim_script.tcl
+# xsim {xsim_snap} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+pass point 0 : id=0 x=100 y=200 (t=171500000)
+pass point 1 : id=1 x=700 y=50 (t=187500000)
+pass point 2 : id=2 x=400 y=240 (t=203500000)
+---- frame end : 3 points, pt_num=3 (t=205500000)
+pass frame1 points : 3 (t=209000000)
+pass frame1 pt_num : 3 (t=209000000)
+pass point 3 : id=0 x=100 y=200 (t=247500000)
+pass point 4 : id=1 x=700 y=50 (t=263500000)
+pass point 5 : id=2 x=400 y=240 (t=279500000)
+pass point 6 : id=3 x=10 y=470 (t=295500000)
+pass point 7 : id=4 x=799 y=1 (t=311500000)
+---- frame end : 5 points, pt_num=5 (t=313500000)
+pass frame2 points total : 8 (t=317000000)
+pass frame2 pt_num : 5 (t=317000000)
+pass point 8 : id=0 x=100 y=200 (t=355500000)
+pass point 9 : id=1 x=700 y=50 (t=371500000)
+---- frame end : 2 points, pt_num=2 (t=373500000)
+pass frame3 points total : 10 (t=377000000)
+pass frame3 pt_num clamped : 2 (t=377000000)
+
+==== TB_TOUCH_DRI RESULT: PASS (0 errors, 3 frames) ====
+
+$finish called at time : 377 us : File "D:/LA132_SoC_HW_EXP/hw/peripheral/exp_touch_multi/tb_touch_dri.v" Line 278
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov 23 19:56:34 2026...

@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+D:/LA132_SoC_HW_EXP/hw/config.vh,1793622808,verilog,,,,,,,,,,,,
+D:/LA132_SoC_HW_EXP/hw/peripheral/exp_intc16/intc_top16.v,1795432133,verilog,,D:/LA132_SoC_HW_EXP/hw/peripheral/exp_intc16/one_int_gen.v,D:/LA132_SoC_HW_EXP/hw/config.vh,intc_top16,,,,,,,,
+D:/LA132_SoC_HW_EXP/hw/peripheral/exp_intc16/one_int_gen.v,1795432199,verilog,,,,one_int_gen,,,,,,,,
+D:/LA132_SoC_HW_EXP/hw/peripheral/exp_intc16/tb_intc16.v,1795432228,verilog,,D:/LA132_SoC_HW_EXP/hw/peripheral/exp_intc16/intc_top16.v,,tb_intc16,,,,,,,,

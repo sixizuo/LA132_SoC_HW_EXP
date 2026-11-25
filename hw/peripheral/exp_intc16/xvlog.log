@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LA132_SoC_HW_EXP/hw/peripheral/exp_intc16/tb_intc16.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_intc16
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LA132_SoC_HW_EXP/hw/peripheral/exp_intc16/intc_top16.v" into library work
+INFO: [VRFC 10-311] analyzing module intc_top16
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LA132_SoC_HW_EXP/hw/peripheral/exp_intc16/one_int_gen.v" into library work
+INFO: [VRFC 10-311] analyzing module one_int_gen

@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+D:/LA132_SoC_HW_EXP/hw/peripheral/exp_touch_multi/i2c_dri_m.v,1795432559,verilog,,,,iic_dri_m,,,,,,,,
+D:/LA132_SoC_HW_EXP/hw/peripheral/exp_touch_multi/tb_touch_top.v,1795433073,verilog,,D:/LA132_SoC_HW_EXP/hw/peripheral/exp_touch_multi/touch_top_multi.v,,tb_touch_top,,,,,,,,
+D:/LA132_SoC_HW_EXP/hw/peripheral/exp_touch_multi/touch_dri_multi.v,1795432914,verilog,,D:/LA132_SoC_HW_EXP/hw/peripheral/exp_touch_multi/i2c_dri_m.v,,touch_dri_multi,,,,,,,,
+D:/LA132_SoC_HW_EXP/hw/peripheral/exp_touch_multi/touch_top_multi.v,1795433112,verilog,,D:/LA132_SoC_HW_EXP/hw/peripheral/exp_touch_multi/touch_dri_multi.v,,touch_top_multi,,,,,,,,

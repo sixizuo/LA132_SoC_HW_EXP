@@ -1,0 +1,42 @@
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov 23 19:56:44 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/xsim_snap/xsim_script.tcl
+# xsim {xsim_snap} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+pass VERSION : 0x54500002
+pass MAXPOINT dflt : 0x00000005
+pass INTERVAL dflt : 0x00017318
+pass CTRL dflt : 0x00000000
+pass MAXPOINT=3 : 0x00000003
+pass MAXPOINT 0->1 : 0x00000001
+pass MAXPOINT 9->5 : 0x00000005
+pass INTERVAL 10->32 : 0x00000020
+pass CTRL=0x7 : 0x00000007
+pass STATUS empty : 0x00000001
+pass IRQ low when empty : 0
+pass DATA read when empty : 0xffffffff
+pass STATUS not empty : 0x00000100
+pass NUM=3 : 0x00000003
+pass IRQ high when not empty : 1
+pass record 0 : 0x001900c8
+pass record 1 : 0x10af0032
+pass record 2 : 0x206400f0
+pass STATUS empty again : 0x00000101
+pass DATA read after drain : 0xffffffff
+pass STATUS after 2 points : 0x00000100
+pass STATUS after clear : 0x00000001
+pass IRQ low after disable : 0
+
+==== TB_TOUCH_TOP RESULT: PASS (0 errors) ====
+
+$finish called at time : 28500 ns : File "D:/LA132_SoC_HW_EXP/hw/peripheral/exp_touch_multi/tb_touch_top.v" Line 224
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov 23 19:56:47 2026...

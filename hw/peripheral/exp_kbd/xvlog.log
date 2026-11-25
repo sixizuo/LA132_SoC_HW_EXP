@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LA132_SoC_HW_EXP/hw/peripheral/exp_kbd/tb_apb_kbd.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_apb_kbd
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LA132_SoC_HW_EXP/hw/peripheral/exp_kbd/apb_kbd.v" into library work
+INFO: [VRFC 10-311] analyzing module apb_kbd

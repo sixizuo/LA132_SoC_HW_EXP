@@ -1,0 +1,21 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe -debug typical tb_touch_top -s xsim_snap 
+Multi-threading is on. Using 14 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4328] File: D:/LA132_SoC_HW_EXP/hw/peripheral/exp_touch_multi/tb_touch_top.v Line: 122 : Sensitivity on input argument "id" of task "inject_point" may never get triggered.
+WARNING: [XSIM 43-4328] File: D:/LA132_SoC_HW_EXP/hw/peripheral/exp_touch_multi/tb_touch_top.v Line: 123 : Sensitivity on input argument "x" of task "inject_point" may never get triggered.
+WARNING: [XSIM 43-4328] File: D:/LA132_SoC_HW_EXP/hw/peripheral/exp_touch_multi/tb_touch_top.v Line: 124 : Sensitivity on input argument "y" of task "inject_point" may never get triggered.
+WARNING: [XSIM 43-4328] File: D:/LA132_SoC_HW_EXP/hw/peripheral/exp_touch_multi/tb_touch_top.v Line: 139 : Sensitivity on input argument "n" of task "inject_frame" may never get triggered.
+WARNING: [XSIM 43-4328] File: D:/LA132_SoC_HW_EXP/hw/peripheral/exp_touch_multi/tb_touch_top.v Line: 144 : Sensitivity on input argument "n" of task "inject_frame" may never get triggered.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.iic_dri_m
+Compiling module work.touch_dri_multi
+Compiling module work.touch_top_multi
+Compiling module work.tb_touch_top
+Built simulation snapshot xsim_snap

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LA132_SoC_HW_EXP/hw/peripheral/exp_dotmatrix/tb_apb_dot.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_apb_dot
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LA132_SoC_HW_EXP/hw/peripheral/exp_dotmatrix/apb_dot.v" into library work
+INFO: [VRFC 10-311] analyzing module apb_dot

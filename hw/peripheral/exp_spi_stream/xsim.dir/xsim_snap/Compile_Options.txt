@@ -1,0 +1,1 @@
+-debug "typical" "tb_da_cs" -s "xsim_snap" 

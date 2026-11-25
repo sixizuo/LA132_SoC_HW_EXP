@@ -1,0 +1,1 @@
+-debug "typical" "tb_intc16" -s "xsim_snap" 

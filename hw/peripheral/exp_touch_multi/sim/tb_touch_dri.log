@@ -1,0 +1,23 @@
+pass point 0 : id=0 x=100 y=200 (t=171500000)
+pass point 1 : id=1 x=700 y=50 (t=187500000)
+pass point 2 : id=2 x=400 y=240 (t=203500000)
+---- frame end : 3 points, pt_num=3 (t=205500000)
+pass frame1 points : 3 (t=209000000)
+pass frame1 pt_num : 3 (t=209000000)
+pass point 3 : id=0 x=100 y=200 (t=247500000)
+pass point 4 : id=1 x=700 y=50 (t=263500000)
+pass point 5 : id=2 x=400 y=240 (t=279500000)
+pass point 6 : id=3 x=10 y=470 (t=295500000)
+pass point 7 : id=4 x=799 y=1 (t=311500000)
+---- frame end : 5 points, pt_num=5 (t=313500000)
+pass frame2 points total : 8 (t=317000000)
+pass frame2 pt_num : 5 (t=317000000)
+pass point 8 : id=0 x=100 y=200 (t=355500000)
+pass point 9 : id=1 x=700 y=50 (t=371500000)
+---- frame end : 2 points, pt_num=2 (t=373500000)
+pass frame3 points total : 10 (t=377000000)
+pass frame3 pt_num clamped : 2 (t=377000000)
+
+==== TB_TOUCH_DRI RESULT: PASS (0 errors, 3 frames) ====
+
+tb_touch_dri.v:281: $finish called at 377000000 (1ps)

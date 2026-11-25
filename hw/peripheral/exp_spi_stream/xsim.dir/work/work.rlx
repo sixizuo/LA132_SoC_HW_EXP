@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+D:/LA132_SoC_HW_EXP/hw/config.vh,1793622808,verilog,,,,,,,,,,,,
+D:/LA132_SoC_HW_EXP/hw/peripheral/apb_spi/spi_fifo.v,1791942124,verilog,,,,spi_fifo,,,,,,,,
+D:/LA132_SoC_HW_EXP/hw/peripheral/apb_spi/spi_top.v,1791942124,verilog,,D:/LA132_SoC_HW_EXP/hw/peripheral/apb_spi/spi_fifo.v,D:/LA132_SoC_HW_EXP/hw/config.vh,spi_top,,,,,,,,
+D:/LA132_SoC_HW_EXP/hw/peripheral/exp_spi_stream/spi_stream_top.v,1795488251,verilog,,D:/LA132_SoC_HW_EXP/hw/peripheral/apb_spi/spi_top.v,,spi_stream_top,,,,,,,,
+D:/LA132_SoC_HW_EXP/hw/peripheral/exp_spi_stream/tb_da_cs.v,1795488503,verilog,,D:/LA132_SoC_HW_EXP/hw/peripheral/exp_spi_stream/spi_stream_top.v,,tb_da_cs,,,,,,,,

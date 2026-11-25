@@ -1,0 +1,1 @@
+-debug "typical" "tb_apb_dot" -s "xsim_snap" 
